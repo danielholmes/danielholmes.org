@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data:AppData 
+    xmlns:data="com.beaniekids.cq3.game.data.*"
+    xmlns:environment="com.beaniekids.cq3.game.environment.*"
+    xmlns:enemies="com.beaniekids.cq3.game.enemies.*"
+    xmlns:heroes="com.beaniekids.cq3.game.heroes.*"
+    xmlns:items="com.beaniekids.cq3.game.items.*"
+    xmlns:hitDetection="au.com.creatio.simulationLibrary.hitDetection.*"
+    xmlns:geom="flash.geom.*">
+    
+    <Array id="levels">
+    	
+    	<!-- LEVEL 1 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="240" />
+            <Array id="items">
+				<environment:HappyCountrysideLandscapeItem />
+				<environment:Level1BackgroundItem width="1908" height="510">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-170" y="-124" width="2189" height="124" />
+						<geom:Rectangle x="-170" y="0" width="168" height="543" />
+						<geom:Rectangle x="-2" y="307" width="159" height="236" />
+						<geom:Rectangle x="157" y="339" width="169" height="204" />
+						<geom:Rectangle x="1909" y="0" width="110" height="548" />
+						<geom:Rectangle x="327" y="503" width="1583" height="45" />
+						<geom:Rectangle x="1076" y="418" width="173" height="85" />
+						<geom:Rectangle x="1249" y="442" width="466" height="61" />
+						<geom:Rectangle x="352" y="257" width="128" height="32" />
+						<geom:Rectangle x="584" y="257" width="57" height="32" />
+						<geom:Rectangle x="514" y="257" width="35" height="32" />
+						<geom:Rectangle x="680" y="209" width="556" height="32" />
+						<geom:Rectangle x="1288" y="213" width="129" height="32" />
+						<geom:Rectangle x="1780" y="374" width="129" height="32" />
+						<geom:Rectangle x="1475" y="294" width="175" height="32" />
+						<geom:Rectangle x="-100" y="-100" width="2108" height="100" />
+						<geom:Rectangle x="-100" y="510" width="2108" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="510" />
+						<geom:Rectangle x="1838" y="0" width="100" height="510" />
+					</Array>
+				</environment:Level1BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="319" y="438" width="758" height="91" />
+						<geom:Rectangle x="1710" y="469" width="199" height="64" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="1836" y="288" />
+				<items:LifeItem x="1340" y="117" />
+				<items:SmallPointItem x="108" y="219" />
+				<items:BigPointItem x="406" y="160" />
+				<items:BigPointItem x="602" y="160" />
+				<items:SmallPointItem x="729" y="114" />
+				<items:SmallPointItem x="858" y="114" />
+				<items:SmallPointItem x="985" y="114" />
+				<items:SmallPointItem x="1109" y="114" />
+				<items:BigPointItem x="1551" y="175" />
+				<items:SmallPointItem x="1376" y="368" />
+				<items:SmallPointItem x="1129" y="355" />
+				<items:BigPointItem x="1553" y="336" />
+				<items:SmallPointItem x="284" y="288" />
+				<enemies:SpiderEnemy x="1595" y="304" />
+				<enemies:PointUpSpike x="796" y="191" />
+				<enemies:PointUpSpike x="1156" y="189" />
+				<enemies:SkeletonEnemy x="1050" y="133" />
+				<enemies:PointUpSpike x="1567" y="275" />
+				<enemies:PointUpSpike x="239" y="321" />
+				<enemies:SkeletonEnemy x="1213" y="343" />
+				<enemies:BlueFireballEnemy x="435" y="347" />
+				<enemies:BlueFireballEnemy x="592" y="347" />
+				<enemies:BlueFireballEnemy x="742" y="347" />
+				<enemies:BlueFireballEnemy x="898" y="347" />
+				<enemies:BlueFireballEnemy x="1741" y="347" />
+			</Array>
+        </data:CQ3EnvironmentData>
+        
+        <!-- LEVEL 2 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="240" />
+            <Array id="items">
+				<environment:CloudsLandscapeItem />
+				<environment:Level2BackgroundItem width="2573" height="598">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-80" y="474" width="1795" height="72" />
+						<geom:Rectangle x="-71" y="-72" width="1795" height="72" />
+						<geom:Rectangle x="-70" y="-14" width="72" height="488" />
+						<geom:Rectangle x="1674" y="0" width="72" height="488" />
+						<geom:Rectangle x="986" y="-4" width="320" height="92" />
+						<geom:Rectangle x="0" y="361" width="166" height="38" />
+						<geom:Rectangle x="211" y="304" width="126" height="34" />
+						<geom:Rectangle x="401" y="306" width="36" height="33" />
+						<geom:Rectangle x="493" y="304" width="462" height="34" />
+						<geom:Rectangle x="1118" y="238" width="60" height="21" />
+						<geom:Rectangle x="992" y="238" width="60" height="21" />
+						<geom:Rectangle x="1245" y="238" width="60" height="21" />
+						<geom:Rectangle x="1341" y="355" width="130" height="30" />
+						<geom:Rectangle x="1520" y="357" width="160" height="28" />
+						<geom:Rectangle x="-100" y="-100" width="2773" height="100" />
+						<geom:Rectangle x="-100" y="598" width="2773" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="598" />
+						<geom:Rectangle x="2503" y="0" width="100" height="598" />
+					</Array>
+				</environment:Level2BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="2" y="442" width="1816" height="72" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="1608" y="267" />
+				<items:LifeItem x="714" y="206" />
+				<items:BigPointItem x="262" y="198" />
+				<items:SmallPointItem x="545" y="227" />
+				<items:SmallPointItem x="885" y="227" />
+				<items:SmallPointItem x="111" y="259" />
+				<items:SmallPointItem x="223" y="272" />
+				<items:BigPointItem x="1133" y="171" />
+				<items:SmallPointItem x="1269" y="182" />
+				<items:SmallPointItem x="1020" y="182" />
+				<items:BigPointItem x="1393" y="259" />
+				<items:SmallPointItem x="1537" y="279" />
+				<items:SmallPointItem x="1570" y="279" />
+				<enemies:PointUpSpike x="152" y="347" />
+				<enemies:PointUpSpike x="550" y="291" />
+				<enemies:PointUpSpike x="887" y="291" />
+				<enemies:SkeletonEnemy x="785" y="227" />
+				<enemies:GargoyleEnemy x="269" y="253" />
+				<enemies:SpiderEnemy x="1140" y="81" />
+				<enemies:SpiderEnemy x="1268" y="81" />
+				<enemies:SpiderEnemy x="1021" y="81" />
+				<enemies:PointUpSpike x="1407" y="342" />
+        	</Array>
+        </data:CQ3EnvironmentData>
+        
+        <!-- LEVEL 3 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="240" />
+            <Array id="items">
+				<environment:DesertLandscapeItem />
+				<environment:Level3BackgroundItem width="2538" height="490">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-84" y="497" width="2675" height="152" />
+						<geom:Rectangle x="-123" y="-146" width="2675" height="152" />
+						<geom:Rectangle x="-112" y="-34" width="112" height="532" />
+						<geom:Rectangle x="2536" y="-20" width="112" height="532" />
+						<geom:Rectangle x="-2" y="298" width="106" height="32" />
+						<geom:Rectangle x="137" y="376" width="542" height="120" />
+						<geom:Rectangle x="0" y="441" width="138" height="56" />
+						<geom:Rectangle x="679" y="407" width="758" height="96" />
+						<geom:Rectangle x="1439" y="343" width="60" height="22" />
+						<geom:Rectangle x="1546" y="343" width="60" height="22" />
+						<geom:Rectangle x="1717" y="343" width="60" height="22" />
+						<geom:Rectangle x="1641" y="346" width="34" height="34" />
+						<geom:Rectangle x="1842" y="346" width="34" height="34" />
+						<geom:Rectangle x="1912" y="420" width="640" height="77" />
+						<geom:Rectangle x="2379" y="355" width="161" height="64" />
+						<geom:Rectangle x="-100" y="-100" width="2738" height="100" />
+						<geom:Rectangle x="-100" y="490" width="2738" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="490" />
+						<geom:Rectangle x="2468" y="0" width="100" height="490" />
+					</Array>
+				</environment:Level3BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="0" y="389" width="137" height="53" />
+						<geom:Rectangle x="1436" y="425" width="476" height="77" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="2459" y="262" />
+				<items:LifeItem x="1051" y="285" />
+				<items:BigPointItem x="738" y="285" />
+				<items:BigPointItem x="82" y="186" />
+				<items:BigPointItem x="2146" y="289" />
+				<items:SmallPointItem x="2241" y="312" />
+				<items:SmallPointItem x="2065" y="312" />
+				<items:BigPointItem x="1646" y="243" />
+				<items:SmallPointItem x="1742" y="275" />
+				<items:SmallPointItem x="1569" y="275" />
+				<items:SmallPointItem x="1465" y="275" />
+				<items:SmallPointItem x="222" y="271" />
+				<items:SmallPointItem x="512" y="271" />
+				<items:SmallPointItem x="924" y="303" />
+				<items:SmallPointItem x="1226" y="303" />
+				<items:SmallPointItem x="187" y="302" />
+				<enemies:SkeletonEnemy x="288" y="301" />
+				<enemies:SkeletonEnemy x="572" y="302" />
+				<enemies:PointUpSpike x="420" y="359" />
+				<enemies:BaddieEnemy x="825" y="329" />
+				<enemies:PointUpSpike x="1000" y="389" />
+				<enemies:PointUpSpike x="1134" y="389" />
+				<enemies:BaddieEnemy x="1966" y="345" />
+				<enemies:SkeletonEnemy x="2312" y="339" />
+				<enemies:RedFireballEnemy x="1806" y="310" />
+				<enemies:RedFireballEnemy x="1520" y="310" />
+				<enemies:SkeletonEnemy x="1332" y="322" />
+				<enemies:GargoyleEnemy x="1651" y="289" />
+				<enemies:RedFireballEnemy x="117" y="278" />
+            </Array>
+        </data:CQ3EnvironmentData>
+        
+        <!-- LEVEL 4 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="240" />
+            <Array id="items">
+				<environment:NightMountainsLandscapeItem />
+				<environment:Level4BackgroundItem width="2487" height="499">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-88" y="-103" width="2607" height="105" />
+						<geom:Rectangle x="-96" y="-47" width="96" height="577" />
+						<geom:Rectangle x="2480" y="-39" width="96" height="577" />
+						<geom:Rectangle x="1203" y="-11" width="600" height="116" />
+						<geom:Rectangle x="0" y="440" width="507" height="27" />
+						<geom:Rectangle x="537" y="380" width="181" height="30" />
+						<geom:Rectangle x="759" y="375" width="60" height="19" />
+						<geom:Rectangle x="856" y="375" width="60" height="19" />
+						<geom:Rectangle x="1028" y="375" width="60" height="19" />
+						<geom:Rectangle x="955" y="369" width="35" height="31" />
+						<geom:Rectangle x="1137" y="325" width="122" height="142" />
+						<geom:Rectangle x="1259" y="291" width="501" height="177" />
+						<geom:Rectangle x="1759" y="315" width="31" height="30" />
+						<geom:Rectangle x="1837" y="303" width="60" height="19" />
+						<geom:Rectangle x="1947" y="303" width="60" height="19" />
+						<geom:Rectangle x="2053" y="303" width="60" height="19" />
+						<geom:Rectangle x="2153" y="361" width="53" height="106" />
+						<geom:Rectangle x="2205" y="333" width="125" height="135" />
+						<geom:Rectangle x="2329" y="307" width="155" height="160" />
+						<geom:Rectangle x="-100" y="-100" width="2687" height="100" />
+						<geom:Rectangle x="-100" y="499" width="2687" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="499" />
+						<geom:Rectangle x="2487" y="0" width="100" height="499" />
+					</Array>
+				</environment:Level4BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-88" y="467" width="2607" height="105" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="2409" y="223" />
+				<items:LifeItem x="1545" y="178" />
+				<items:BigPointItem x="611" y="279" />
+				<items:BigPointItem x="237" y="320" />
+				<items:SmallPointItem x="408" y="350" />
+				<items:SmallPointItem x="446" y="350" />
+				<items:SmallPointItem x="365" y="350" />
+				<items:SmallPointItem x="489" y="350" />
+				<items:SmallPointItem x="1370" y="188" />
+				<items:SmallPointItem x="1408" y="188" />
+				<items:SmallPointItem x="1445" y="188" />
+				<items:SmallPointItem x="1482" y="188" />
+				<items:SmallPointItem x="1040" y="302" />
+				<items:SmallPointItem x="1070" y="302" />
+				<items:BigPointItem x="871" y="279" />
+				<items:SmallPointItem x="1862" y="239" />
+				<items:SmallPointItem x="2081" y="239" />
+				<items:SmallPointItem x="2233" y="250" />
+				<items:SmallPointItem x="2290" y="250" />
+				<items:SmallPointItem x="40" y="302" />
+				<enemies:GargoyleEnemy x="162" y="345" />
+				<enemies:GargoyleEnemy x="322" y="345" />
+				<enemies:PointUpSpike x="252" y="423" />
+				<enemies:PointUpSpike x="431" y="423" />
+				<enemies:SkeletonEnemy x="661" y="307" />
+				<enemies:SpiderEnemy x="1323" y="96" />
+				<enemies:SpiderEnemy x="1694" y="97" />
+				<enemies:BaddieEnemy x="1406" y="217" />
+				<enemies:GargoyleEnemy x="877" y="320" />
+				<enemies:PointUpSpike x="2263" y="316" />
+				<enemies:GargoyleEnemy x="1967" y="239" />
+				<enemies:PointUpSpike x="1194" y="309" />
+            </Array>
+        </data:CQ3EnvironmentData>
+        
+        <!--  LEVEL 5 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="140" />
+            <Array id="items">
+				<environment:BlackNightMountainsLandscapeItem />
+				<environment:Level5BackgroundItem width="1854" height="481">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-116" y="-44" width="116" height="616" />
+						<geom:Rectangle x="-169" y="-128" width="2190" height="128" />
+						<geom:Rectangle x="-138" y="538" width="2190" height="108" />
+						<geom:Rectangle x="-13" y="459" width="624" height="132" />
+						<geom:Rectangle x="1872" y="-18" width="116" height="576" />
+						<geom:Rectangle x="1396" y="526" width="484" height="72" />
+						<geom:Rectangle x="884" y="330" width="174" height="213" />
+						<geom:Rectangle x="1053" y="360" width="354" height="180" />
+						<geom:Rectangle x="179" y="254" width="60" height="24" />
+						<geom:Rectangle x="80" y="254" width="60" height="24" />
+						<geom:Rectangle x="-9" y="254" width="60" height="24" />
+						<geom:Rectangle x="621" y="389" width="60" height="24" />
+						<geom:Rectangle x="693" y="329" width="60" height="24" />
+						<geom:Rectangle x="498" y="250" width="134" height="30" />
+						<geom:Rectangle x="299" y="249" width="36" height="38" />
+						<geom:Rectangle x="393" y="250" width="36" height="38" />
+						<geom:Rectangle x="805" y="322" width="36" height="38" />
+						<geom:Rectangle x="1504" y="301" width="36" height="38" />
+						<geom:Rectangle x="1584" y="301" width="36" height="38" />
+						<geom:Rectangle x="1664" y="301" width="36" height="38" />
+						<geom:Rectangle x="1727" y="301" width="130" height="32" />
+						<geom:Rectangle x="1419" y="301" width="58" height="24" />
+						<geom:Rectangle x="-100" y="-100" width="2054" height="100" />
+						<geom:Rectangle x="-100" y="481" width="2054" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="481" />
+						<geom:Rectangle x="1854" y="0" width="100" height="481" />
+					</Array>
+				</environment:Level5BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="611" y="467" width="273" height="70" />
+						<geom:Rectangle x="1407" y="377" width="464" height="149" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="1790" y="217" />
+				<items:LifeItem x="183" y="343" />
+				<items:BigPointItem x="12" y="341" />
+				<items:BigPointItem x="441" y="341" />
+				<items:SmallPointItem x="106" y="163" />
+				<items:SmallPointItem x="205" y="163" />
+				<items:SmallPointItem x="154" y="163" />
+				<items:SmallPointItem x="818" y="234" />
+				<items:SmallPointItem x="902" y="234" />
+				<items:SmallPointItem x="937" y="234" />
+				<items:SmallPointItem x="974" y="234" />
+				<items:SmallPointItem x="1010" y="234" />
+				<items:SmallPointItem x="1108" y="272" />
+				<items:SmallPointItem x="1165" y="272" />
+				<items:SmallPointItem x="1280" y="272" />
+				<items:SmallPointItem x="1336" y="274" />
+				<items:BigPointItem x="1214" y="246" />
+				<items:SmallPointItem x="1516" y="228" />
+				<items:SmallPointItem x="1598" y="228" />
+				<items:SmallPointItem x="1680" y="228" />
+				<items:SmallPointItem x="204" y="196" />
+				<enemies:BaddieEnemy x="55" y="378" />
+				<enemies:BaddieEnemy x="325" y="377" />
+				<enemies:GargoyleEnemy x="305" y="199" />
+				<enemies:GargoyleEnemy x="713" y="261" />
+				<enemies:SkeletonEnemy x="1012" y="254" />
+				<enemies:PointUpSpike x="1343" y="342" />
+				<enemies:PointUpSpike x="1142" y="342" />
+				<enemies:GargoyleEnemy x="1436" y="231" />
+				<enemies:SkeletonEnemy x="590" y="174" />
+				<enemies:BaddieEnemy x="1166" y="287" />
+				<enemies:BlueFireballEnemy x="1560" y="261" />
+				<enemies:BlueFireballEnemy x="1638" y="261" />
+				<enemies:BlueFireballEnemy x="771" y="392" />
+				<enemies:BlueFireballEnemy x="852" y="392" />
+        	</Array>
+        </data:CQ3EnvironmentData>
+        
+        <!--  LEVEL 6 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="140" />
+            <Array id="items">
+				<environment:RainbowMountainsLandscapeItem />
+				<environment:Level6BackgroundItem width="3641" height="839">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-170" y="-124" width="2651" height="124" />
+						<geom:Rectangle x="-120" y="-20" width="120" height="512" />
+						<geom:Rectangle x="2421" y="-20" width="72" height="508" />
+						<geom:Rectangle x="1243" y="0" width="827" height="72" />
+						<geom:Rectangle x="-5" y="406" width="106" height="36" />
+						<geom:Rectangle x="156" y="375" width="484" height="34" />
+						<geom:Rectangle x="671" y="375" width="36" height="42" />
+						<geom:Rectangle x="739" y="375" width="36" height="37" />
+						<geom:Rectangle x="802" y="403" width="60" height="26" />
+						<geom:Rectangle x="894" y="403" width="60" height="26" />
+						<geom:Rectangle x="986" y="403" width="60" height="26" />
+						<geom:Rectangle x="1075" y="370" width="160" height="116" />
+						<geom:Rectangle x="1236" y="340" width="96" height="148" />
+						<geom:Rectangle x="1333" y="312" width="352" height="172" />
+						<geom:Rectangle x="1686" y="332" width="332" height="32" />
+						<geom:Rectangle x="2235" y="375" width="174" height="32" />
+						<geom:Rectangle x="2056" y="379" width="34" height="32" />
+						<geom:Rectangle x="2136" y="379" width="34" height="32" />
+						<geom:Rectangle x="-100" y="-100" width="3841" height="100" />
+						<geom:Rectangle x="-100" y="839" width="3841" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="839" />
+						<geom:Rectangle x="3571" y="0" width="100" height="839" />
+					</Array>
+				</environment:Level6BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-136" y="478" width="2643" height="104" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="2350" y="291" />
+				<items:LifeItem x="747" y="266" />
+				<items:BigPointItem x="515" y="248" />
+				<items:BigPointItem x="387" y="248" />
+				<items:SmallPointItem x="194" y="263" />
+				<items:SmallPointItem x="254" y="263" />
+				<items:BigPointItem x="907" y="277" />
+				<items:SmallPointItem x="1098" y="264" />
+				<items:SmallPointItem x="1138" y="264" />
+				<items:SmallPointItem x="1178" y="264" />
+				<items:LifeItem x="1455" y="185" />
+				<items:SmallPointItem x="1726" y="251" />
+				<items:SmallPointItem x="1816" y="251" />
+				<items:SmallPointItem x="1893" y="251" />
+				<items:SmallPointItem x="1969" y="251" />
+				<items:BigPointItem x="2139" y="273" />
+				<items:SmallPointItem x="2070" y="288" />
+				<items:SmallPointItem x="227" y="259" />
+				<enemies:SkeletonEnemy x="300" y="299" />
+				<enemies:SkeletonEnemy x="581" y="295" />
+				<enemies:GargoyleEnemy x="459" y="268" />
+				<enemies:GargoyleEnemy x="819" y="292" />
+				<enemies:GargoyleEnemy x="1003" y="292" />
+				<enemies:BaddieEnemy x="1376" y="238" />
+				<enemies:BaddieEnemy x="1764" y="259" />
+				<enemies:SkeletonEnemy x="1177" y="290" />
+				<enemies:PointUpSpike x="1284" y="323" />
+				<enemies:PointUpSpike x="1608" y="294" />
+				<enemies:PointUpSpike x="1984" y="317" />
+				<enemies:GargoyleEnemy x="913" y="325" />
+				<enemies:GargoyleEnemy x="2250" y="289" />
+				<enemies:SpiderEnemy x="1333" y="68" />
+				<enemies:SpiderEnemy x="1578" y="69" />
+				<enemies:SpiderEnemy x="1878" y="69" />
+        	</Array>
+        </data:CQ3EnvironmentData>
+        
+        <!--  LEVEL 7 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="140" />
+            <Array id="items">
+				<environment:CavesLandscapeItem />
+				<environment:Level7BackgroundItem width="2600" height="473">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="517" y="335" width="61" height="21" />
+						<geom:Rectangle x="638" y="336" width="61" height="21" />
+						<geom:Rectangle x="840" y="337" width="61" height="21" />
+						<geom:Rectangle x="749" y="334" width="37" height="33" />
+						<geom:Rectangle x="1425" y="364" width="61" height="21" />
+						<geom:Rectangle x="1519" y="398" width="61" height="21" />
+						<geom:Rectangle x="1623" y="363" width="61" height="21" />
+						<geom:Rectangle x="1720" y="397" width="61" height="21" />
+						<geom:Rectangle x="-14" y="292" width="72" height="34" />
+						<geom:Rectangle x="78" y="391" width="421" height="25" />
+						<geom:Rectangle x="959" y="370" width="163" height="192" />
+						<geom:Rectangle x="1120" y="311" width="128" height="243" />
+						<geom:Rectangle x="1247" y="339" width="123" height="193" />
+						<geom:Rectangle x="1839" y="367" width="124" height="187" />
+						<geom:Rectangle x="1960" y="302" width="319" height="236" />
+						<geom:Rectangle x="2279" y="380" width="161" height="180" />
+						<geom:Rectangle x="2439" y="311" width="161" height="261" />
+						<geom:Rectangle x="-279" y="-119" width="3028" height="120" />
+						<geom:Rectangle x="-160" y="511" width="2838" height="131" />
+						<geom:Rectangle x="-234" y="-209" width="237" height="892" />
+						<geom:Rectangle x="2600" y="-159" width="72" height="739" />
+						<geom:Rectangle x="-100" y="-100" width="2800" height="100" />
+						<geom:Rectangle x="-100" y="473" width="2800" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="473" />
+						<geom:Rectangle x="2600" y="0" width="100" height="473" />
+					</Array>
+				</environment:Level7BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="2" y="417" width="956" height="89" />
+						<geom:Rectangle x="1369" y="437" width="470" height="71" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Portal x="2527" y="227" />
+				<items:LifeItem x="750" y="237" />
+				<items:BigPointItem x="420" y="282" />
+				<items:BigPointItem x="185" y="282" />
+				<items:BigPointItem x="1170" y="195" />
+				<items:SmallPointItem x="972" y="273" />
+				<items:SmallPointItem x="1021" y="273" />
+				<items:SmallPointItem x="1068" y="273" />
+				<items:SmallPointItem x="1277" y="229" />
+				<items:SmallPointItem x="1313" y="229" />
+				<items:SmallPointItem x="1353" y="229" />
+				<items:BigPointItem x="1639" y="268" />
+				<items:BigPointItem x="2034" y="180" />
+				<items:BigPointItem x="2174" y="180" />
+				<items:SmallPointItem x="2114" y="203" />
+				<items:SmallPointItem x="95" y="306" />
+				<enemies:RedFireballEnemy x="605" y="288" />
+				<enemies:RedFireballEnemy x="728" y="288" />
+				<enemies:RedFireballEnemy x="818" y="288" />
+				<enemies:RedFireballEnemy x="1398" y="329" />
+				<enemies:RedFireballEnemy x="1801" y="329" />
+				<enemies:BaddieEnemy x="113" y="318" />
+				<enemies:GargoyleEnemy x="341" y="283" />
+				<enemies:PointUpSpike x="264" y="375" />
+				<enemies:GargoyleEnemy x="655" y="240" />
+				<enemies:GargoyleEnemy x="1029" y="240" />
+				<enemies:SkeletonEnemy x="1218" y="237" />
+				<enemies:PointUpSpike x="1312" y="323" />
+				<enemies:GargoyleEnemy x="1538" y="303" />
+				<enemies:GargoyleEnemy x="1735" y="303" />
+				<enemies:BaddieEnemy x="1994" y="233" />
+				<enemies:SkeletonEnemy x="2233" y="229" />
+				<enemies:SkeletonEnemy x="2386" y="301" />
+				<enemies:PointUpSpike x="1901" y="351" />
+        	</Array>
+        </data:CQ3EnvironmentData>
+        
+        <!--  LEVEL 8 -->
+        <data:CQ3EnvironmentData parTime="60">
+            <geom:Point id="startPosition" x="40" y="140" />
+            <Array id="items">
+				<environment:GreyCavesLandscapeItem />
+				<environment:Level8BackgroundItem width="2875" height="492">
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="-233" y="-796" width="233" height="1411" />
+						<geom:Rectangle x="-202" y="-127" width="3036" height="131" />
+						<geom:Rectangle x="-33" y="388" width="173" height="139" />
+						<geom:Rectangle x="255" y="390" width="136" height="139" />
+						<geom:Rectangle x="174" y="393" width="34" height="36" />
+						<geom:Rectangle x="437" y="382" width="34" height="36" />
+						<geom:Rectangle x="513" y="382" width="34" height="36" />
+						<geom:Rectangle x="1698" y="309" width="34" height="36" />
+						<geom:Rectangle x="1804" y="309" width="34" height="36" />
+						<geom:Rectangle x="1973" y="308" width="34" height="36" />
+						<geom:Rectangle x="2157" y="307" width="34" height="36" />
+						<geom:Rectangle x="623" y="373" width="59" height="21" />
+						<geom:Rectangle x="760" y="341" width="475" height="32" />
+						<geom:Rectangle x="1185" y="-15" width="626" height="161" />
+						<geom:Rectangle x="2344" y="-42" width="553" height="72" />
+						<geom:Rectangle x="2430" y="177" width="468" height="37" />
+						<geom:Rectangle x="2238" y="255" width="132" height="36" />
+						<geom:Rectangle x="1866" y="391" width="60" height="20" />
+						<geom:Rectangle x="1570" y="283" width="64" height="20" />
+						<geom:Rectangle x="2041" y="392" width="64" height="20" />
+						<geom:Rectangle x="1339" y="339" width="175" height="32" />
+						<geom:Rectangle x="2878" y="-223" width="72" height="851" />
+						<geom:Rectangle x="-100" y="-100" width="3075" height="100" />
+						<geom:Rectangle x="-100" y="492" width="3075" height="100" />
+						<geom:Rectangle x="-100" y="0" width="100" height="492" />
+						<geom:Rectangle x="2875" y="0" width="100" height="492" />
+					</Array>
+				</environment:Level8BackgroundItem>
+				<environment:LethalWater>
+					<Array id="hitMethod.targets">
+						<geom:Rectangle x="139" y="453" width="116" height="111" />
+						<geom:Rectangle x="390" y="443" width="2501" height="75" />
+					</Array>
+				</environment:LethalWater>
+				<heroes:Japanda x="2752" y="116" />
+				<items:SmallPointItem x="277" y="299" />
+				<items:SmallPointItem x="318" y="299" />
+				<items:SmallPointItem x="358" y="299" />
+				<items:SmallPointItem x="448" y="299" />
+				<items:SmallPointItem x="529" y="299" />
+				<items:BigPointItem x="871" y="224" />
+				<items:BigPointItem x="1014" y="224" />
+				<items:BigPointItem x="1586" y="212" />
+				<items:SmallPointItem x="1352" y="259" />
+				<items:SmallPointItem x="1462" y="259" />
+				<items:LifeItem x="1405" y="249" />
+				<items:LifeItem x="1976" y="226" />
+				<items:SmallPointItem x="1713" y="219" />
+				<items:SmallPointItem x="1820" y="219" />
+				<items:SmallPointItem x="2446" y="95" />
+				<items:SmallPointItem x="2554" y="95" />
+				<items:SmallPointItem x="2679" y="95" />
+				<items:SmallPointItem x="188" y="302" />
+				<enemies:RedFireballEnemy x="151" y="360" />
+				<enemies:RedFireballEnemy x="232" y="360" />
+				<enemies:SkeletonEnemy x="347" y="316" />
+				<enemies:GargoyleEnemy x="646" y="295" />
+				<enemies:BaddieEnemy x="792" y="273" />
+				<enemies:BaddieEnemy x="1065" y="273" />
+				<enemies:GargoyleEnemy x="929" y="233" />
+				<enemies:PointUpSpike x="1026" y="324" />
+				<enemies:SpiderEnemy x="1190" y="149" />
+				<enemies:SpiderEnemy x="1591" y="103" />
+				<enemies:SpiderEnemy x="1417" y="149" />
+				<enemies:SkeletonEnemy x="1464" y="267" />
+				<enemies:GargoyleEnemy x="1891" y="303" />
+				<enemies:RedFireballEnemy x="2128" y="338" />
+				<enemies:RedFireballEnemy x="2025" y="338" />
+				<enemies:RedFireballEnemy x="1948" y="338" />
+				<enemies:RedFireballEnemy x="1848" y="338" />
+				<enemies:GargoyleEnemy x="2166" y="225" />
+				<enemies:PointUpSpike x="2296" y="239" />
+				<enemies:SkeletonEnemy x="2322" y="178" />
+				<enemies:SpiderEnemy x="2474" y="9" />
+				<enemies:SpiderEnemy x="2618" y="9" />
+        	</Array>
+        </data:CQ3EnvironmentData>
+    </Array>
+</data:AppData>
