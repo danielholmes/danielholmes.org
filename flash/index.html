@@ -3,16 +3,23 @@
 		<title>Some old flash demos</title>
 		<style type="text/css">
 			#container {
-				width: 600px;
-				height: 400px;
-				border: 1px solid black;
+				width: 800px;
+				height: 600px;
 			}
 		</style>
 	</head>
 	<body>
 		<h1>Some old flash demos</h1>
 		<button type="button" onclick="loadGame('car-physics.swf')">Car Physics</button>
+		<button type="button" onclick="loadGame('platformer.swf')">Platformer</button>
+		<button type="button" onclick="loadGame('projectiles.swf')">Projectiles</button>
+		<button type="button" onclick="loadGame('soccer-juggling.swf')">Soccer Juggling</button>
 		<div id="container"></div>
+
+		<footer>
+			Flash content is served using <a href="https://ruffle.rs/" target="_blank">Ruffle</a>
+		</footer>
+
 		<script>
 		    window.RufflePlayer = window.RufflePlayer || {};
 
