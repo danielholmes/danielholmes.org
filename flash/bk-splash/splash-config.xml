@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data:AppData
+	xmlns:display="flash.display.*"
+    xmlns:data="com.beaniekids.splashSafety.data.*"
+    xmlns:chars="com.beaniekids.splashSafety.game.characters.*"
+    xmlns:items="com.beaniekids.splashSafety.game.items.*"
+    xmlns:env="com.beaniekids.splashSafety.game.environment.*">
+    <display:Sprite id="hitUtilDisplay" visible="false" />
+    <Array id="levels">
+        <data:SplashLevel name="Bay O’Beanie" timeLimit="120" completeBonus="200">
+            <String id="description"></String>
+            <Array id="tips">
+            	<String>Everyone on board a small boat should wear a personal flotation device (PFD).</String> 
+            	<String>Make sure your boat has emergency equipment (flares, first aid kit etc).</String>
+            	<String>Never go boating alone.</String>
+            	<String>Know the limitations of the boat and do not overload it.</String> 
+            	<String>Follow the boating traffic rules.</String>
+            	<String>Check weather conditions, and continue to monitor weather reports.</String> 
+            	<String>Always leave word of destination and estimated time of return.</String>
+            	<String>Keep the boat away from swimming areas, rocks and other craft.</String>
+            	<String>Stow all gear safely.</String>
+            	<String>Always swim with a friend, never alone.</String> 
+            	<String>If bad weather threatens, head for shore.</String>
+            </Array>
+            <Array id="items">
+            	<env:BayHitBound utilTargetParent="{hitUtilDisplay}" />
+            	<env:WorldBound x="-100" y="-100" width="100" height="1640" />
+            	<env:WorldBound x="-100" y="-100" width="2124" height="100" />
+            	<env:WorldBound x="-100" y="1440" width="2124" height="100" />
+            	<env:WorldBound x="1924" y="-100" width="100" height="1640" />
+            	<env:BayLandscape />
+            	<items:FirstAidItem x="224" y="828" />
+            	<items:FirstAidItem x="160" y="1399" />
+            	<items:FirstAidItem x="1888" y="1317" />
+            	<items:FirstAidItem x="434" y="404" />
+            	<items:FirstAidItem x="1267" y="18" />
+            	<chars:Tuby x="297" y="947" yDirection="-1" xDirection="0" />
+            	<env:BayOverlayLandscape />
+            	<env:QuestionItem x="1375" y="631" width="94" height="159" answer="unsafe"
+            		name="Overloaded boat" message="Know the limitations of your boat and do not over load it" />
+				<env:QuestionItem x="999" y="120" width="94" height="164" answer="unsafe"
+					name="Untidy boat" message="Stow all gear safely" />
+				<env:QuestionItem x="355" y="190" width="70" height="65" answer="unsafe"
+					name="No life jacket" message="Everyone on board should wear a PFD" />
+				<env:QuestionItem x="665" y="1031" width="94" height="112" answer="unsafe"
+					name="Boat heading for rocks" message="Keep the boat away from swimming areas, rocks and other boats" />
+				<env:QuestionItem x="555" y="1021" width="82" height="78" answer="unsafe"
+					name="Boating alone" message="Never go boating alone" />
+				<env:QuestionItem x="215" y="731" width="57" height="56" answer="safe"
+					name="Wearing a life jacket" message="Everyone on board should wear a PFD" />
+				<env:QuestionItem x="342" y="724" width="72" height="66" answer="safe"
+					name="All passengers wearing a life jacket" message="Everyone on board should wear a PFD" />
+				<env:QuestionItem x="443" y="751" width="44" height="106" answer="safe"
+					name="Safety equipment on boat" message="Make sure your boat has emergency equipment" />
+				<env:QuestionItem x="1121" y="1127" width="166" height="101" answer="safe"
+					name="Swimming with friends" message="Always swim with a friend, never alone" />
+				<env:QuestionItem x="1358" y="801" width="56" height="83" answer="safe"
+					name="Wearing sunscreen" message="Always use sun protection" />
+            </Array>
+        </data:SplashLevel>
+        <data:SplashLevel name="Rainbow Land Water Park" timeLimit="120" completeBonus="200">
+            <String id="description"></String>
+            <Array id="tips">
+            	<String>Obey signs giving advice to swimmers.</String>
+            	<String>Listen to the pool lifeguards.</String>
+            	<String>Stay away from the deep end, unless you can swim well.</String>
+            	<String>Make sure the water is clear of swimmers before jumping in.</String> 
+            	<String>Play safely.</String>
+            	<String>Do not run around the pool edge.</String>
+            	<String>Check the depth markings on the poolside before diving.</String>
+            	<String>Young swimmers should wear floatation devices and be supervised by an adult</String>
+            </Array>
+            <Array id="items">
+                <env:RainbowParkHitBound utilTargetParent="{hitUtilDisplay}" />
+                <env:WorldBound x="-100" y="-100" width="100" height="1640" />
+                <env:WorldBound x="-100" y="-100" width="2120" height="100" />
+                <env:WorldBound x="-100" y="1440" width="2120" height="100" />
+                <env:WorldBound x="1920" y="-100" width="100" height="1640" />
+                <env:RainbowParkLandscape />
+                <items:FirstAidItem x="155" y="1125" />
+                <items:FirstAidItem x="76" y="336" />
+                <items:FirstAidItem x="738" y="566" />
+                <items:FirstAidItem x="1193" y="125" />
+                <items:FirstAidItem x="1441" y="1363" />
+                <items:FirstAidItem x="1165" y="927" />
+                <chars:Tuby x="286" y="1222" yDirection="0" xDirection="1" />
+                <env:RainbowOverlayLandscape />
+                <env:QuestionItem x="245" y="806" width="105" height="100" answer="unsafe"
+					name="Young Beanie swimming alone" message="Always swim with a friend, never alone" />
+				<env:QuestionItem x="1757" y="554" width="75" height="131" answer="unsafe"
+					name="Head first down slide" message="Always play safely" />
+				<env:QuestionItem x="1745" y="1275" width="175" height="113" answer="unsafe"
+					name="Diving in a no diving zone" message="Obey signs giving advice to swimmers" />
+				<env:QuestionItem x="915" y="1" width="214" height="131" answer="unsafe"
+					name="Jumping into a crowd" message="Make sure that the water is clear of swimmers before diving in" />
+				<env:QuestionItem x="474" y="1015" width="123" height="216" answer="unsafe"
+					name="Diving into shallow water" message="Check the depth markings on the poolside before diving" />
+				<env:QuestionItem x="715" y="793" width="43" height="235" answer="safe"
+					name="Safety fence on pool" message="Fence home pools and include self-closing gates" />
+				<env:QuestionItem x="584" y="380" width="100" height="98" answer="safe"
+					name="Safety signs" message="Always read The Surf Conditions Board" />
+				<env:QuestionItem x="478" y="521" width="73" height="78" answer="safe"
+					name="Floatation device on a young swimmer" message="Uncertain swimmers should always wear floatation devices" />
+				<env:QuestionItem x="1305" y="565" width="113" height="131" answer="safe"
+					name="Sunscreen" message="Always use sun protection" />
+            </Array>
+        </data:SplashLevel>
+        <data:SplashLevel name="Beanie Beach" timeLimit="120" completeBonus="200">
+            <String id="description"></String>
+            <Array id="tips">
+            	<String>The safest place to swim at the beach is between the red and yellow flags.</String> 
+            	<String>Mark a reference point on the shore, to avoid drifting.</String>
+            	<String>Always read The Surf Conditions Board.</String>
+            	<String>If you think conditions are too rough for you, don't go in.</String> 
+            	<String>Always swim with a friend, never alone.</String>
+            	<String>Swim parallel to and not away from the shore when you swim long distances.</String> 
+            	<String>Swim in well lit areas, so you can be seen if you get into trouble.</String>
+            	<String>For your safety, leave the water immediately when requested by a lifeguard.</String>
+            	<String>When fishing from rocks stay away from sloping, slippery edges.</String>
+            </Array>
+            <Array id="items">
+                <env:BeachHitBound utilTargetParent="{hitUtilDisplay}" />
+                <env:WorldBound x="-100" y="-100" width="100" height="2120" />
+                <env:WorldBound x="-100" y="-100" width="2760" height="100" />
+                <env:WorldBound x="-100" y="1920" width="2760" height="100" />
+                <env:WorldBound x="2560" y="-100" width="100" height="2120" />
+                <env:BeachLandscape />
+                <items:FirstAidItem x="24" y="1464" />
+                <items:FirstAidItem x="1058" y="1834" />
+                <items:FirstAidItem x="1220" y="1188" />
+                <items:FirstAidItem x="2146" y="1738" />
+                <items:FirstAidItem x="2518" y="860" />
+                <chars:Tuby x="67" y="1830" yDirection="0" xDirection="1" />
+                <env:BeachOverlayLandscape />
+                <env:QuestionItem x="1467" y="781" width="134" height="131" answer="unsafe"
+					name="Swimming outside of flags" message="The safest place to swim at the beach is between the red and yellow flags" />
+				<env:QuestionItem x="1111" y="753" width="79" height="104" answer="safe"
+					name="Swim parallel to shore" message="Swim parallel to and not away from the shore when you swim long distances" />
+				<env:QuestionItem x="1885" y="857" width="74" height="107" answer="unsafe"
+					name="Rock fishing on slippery ledge" message="When rock fishing stay away from sloping, slippery edges" />
+				<env:QuestionItem x="2133" y="626" width="181" height="157" answer="unsafe"
+					name="Diving into a group" message="Make sure that the water is clear of swimmers before jumping in" />
+				<env:QuestionItem x="436" y="718" width="125" height="79" answer="unsafe"
+					name="Surfing near a crowd" message="Make sure that the water is clear of swimmers" />
+				<env:QuestionItem x="296" y="724" width="141" height="164" answer="safe"
+					name="Swimming within the flags" message="The safest place to swim at the beach is between the red and yellow flags" />
+				<env:QuestionItem x="125" y="844" width="62" height="72" answer="safe"
+					name="Swimming with a friend" message="Always swim with a friend, never alone" />
+				<env:QuestionItem x="198" y="827" width="62" height="72" answer="safe"
+					name="Floatation device on a young swimmer" message="Uncertain swimmers should always wear floatation devices" />
+				<env:QuestionItem x="1876" y="1711" width="134" height="131" answer="safe"
+					name="Sunscreen" message="Always use sun protection" />
+				<env:QuestionItem x="1027" y="753" width="79" height="104" answer="unsafe"
+					name="Swimming alone" message="Always swim with a friend, never alone" />
+            </Array>
+        </data:SplashLevel>
+        <data:SplashLevel name="Beanie Town Backyard" timeLimit="120" completeBonus="200">
+            <String id="description"></String>
+            <Array id="tips">
+				<String>Supervise children in, on or near water.</String> 
+				<String>Fence home pools and include self-closing gates.</String>
+				<String>Keep the bath plug out of reach of small children.</String>
+				<String>Never leave children alone in the bath.</String>
+				<String>Keep liquid filled buckets out of reach of children.</String> 
+				<String>Empty children's paddling pools as soon as they have finished using them.</String> 
+				<String>Close top loading washing machines.</String>
+				<String>Keep fish ponds covered.</String>
+				<String>Install rigid covers over spas.</String>
+            </Array>
+            <Array id="items">
+                <env:BackyardHitBound utilTargetParent="{hitUtilDisplay}" />
+                <env:WorldBound x="-100" y="-100" width="100" height="1770" />
+                <env:WorldBound x="-100" y="-100" width="2760" height="100" />
+                <env:WorldBound x="-100" y="1565" width="2760" height="100" />
+                <env:WorldBound x="2560" y="-100" width="100" height="1770" />
+                <env:BackyardLandscape />
+                <items:FirstAidItem x="36" y="846" />
+                <items:FirstAidItem x="1290" y="1441" />
+                <items:FirstAidItem x="2503" y="1068" />
+                <items:FirstAidItem x="950" y="73" />
+                <chars:Tuby x="647" y="857" yDirection="-1" xDirection="0" />
+                <env:BackyardOverlayLandscape />
+                <env:QuestionItem x="124" y="566" width="239" height="142" answer="unsafe"
+					name="Young beanie unsupervised in bath" message="Never leave children alone in the bath" />
+				<env:QuestionItem x="132" y="1106" width="302" height="302" answer="unsafe"
+					name="Paddle pool filled with water" message="Empty children’s paddling pool as soon as they are finished using them" />
+				<env:QuestionItem x="1134" y="1023" width="149" height="133" answer="unsafe"
+					name="Running near pool" message="Do not run around the pool edge" />
+				<env:QuestionItem x="1467" y="1337" width="127" height="100" answer="safe"
+					name="Sunscreen" message="Always wear sun protection" />
+				<env:QuestionItem x="1595" y="1141" width="74" height="78" answer="safe"
+					name="Young beanie being supervised in pool area" message="Supervise children in or near water" />
+				<env:QuestionItem x="1930" y="856" width="89" height="91" answer="unsafe"
+					name="Chemicals near pool" message="Never leave pool chemical where children can reach them" />
+				<env:QuestionItem x="1650" y="1067" width="74" height="78" answer="safe"
+					name="Floatation device on young beanie" message="Uncertain swimmers should always wear floatation devices" />
+				<env:QuestionItem x="871" y="701" width="142" height="202" answer="safe"
+					name="Fenced pool" message="Fence pools and included self-closing gates" />
+				<env:QuestionItem x="525" y="455" width="224" height="222" answer="safe"
+					name="Covered spa" message="Always keep spas covered when not in use" />
+            </Array>
+        </data:SplashLevel>
+    </Array>
+</data:AppData>

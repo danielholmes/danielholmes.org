@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data:AppData
+	xmlns:data="com.beaniekids.f1Maths.data.*"
+	xmlns:track="com.beaniekids.f1Maths.game.track.*"
+	xmlns:vehicles="com.beaniekids.f1Maths.game.vehicles.*"
+	xmlns:question="com.beaniekids.f1Maths.game.question.*"
+	xmlns:bezier="org.farmcode.bezier.*"
+	xmlns:utils="flash.utils.*"
+	xmlns:numExpression="au.com.creatio.numericExpression.*"
+	xmlns:trackThumbs="assets.com.beaniekids.f1Maths.trackThumbs.*">
+	<Array id="possibleSeries">
+		<data:RaceSeries id="grandPrix" identifier="grandPrix" name="Grand-Prix Course">
+			<Array id="races">
+				<data:Race id="grassyRace" name="Grassy Raceway" totalLaps="2">
+					<String id="description">Race through the plains in this grassy green track! Two laps to complete to move onto the Dusty Dirt Track. Do you have what it takes to be the next Spark?</String>
+					<data:Track id="track" length="3000" location="The Grassy Plains">
+						<trackThumbs:GrassySpeedwayThumb id="thumbClass" />
+						<Array id="layers">
+							<track:GrassTrackLandscapeItem depth="-1" />
+							<track:GrassTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1736" y="1081" />
+											<bezier:BezierPoint x="1736" y="973" />
+											<bezier:BezierPoint x="1654" y="910" />
+											<bezier:BezierPoint x="1548" y="840" />
+											<bezier:BezierPoint x="1552" y="562" />
+											<bezier:BezierPoint x="1624" y="487" />
+											<bezier:BezierPoint x="1759" y="487" />
+											<bezier:BezierPoint x="1809" y="451" />
+											<bezier:BezierPoint x="1759" y="415" />
+											<bezier:BezierPoint x="685" y="415" />
+											<bezier:BezierPoint x="617" y="462" />
+											<bezier:BezierPoint x="685" y="510" />
+											<bezier:BezierPoint x="836" y="510" />
+											<bezier:BezierPoint x="917" y="590" />
+											<bezier:BezierPoint x="917" y="840" />
+											<bezier:BezierPoint x="842" y="915" />
+											<bezier:BezierPoint x="425" y="915" />
+											<bezier:BezierPoint x="391" y="975" />
+											<bezier:BezierPoint x="425" y="1037" />
+											<bezier:BezierPoint x="598" y="1037" />
+											<bezier:BezierPoint x="830" y="1253" />
+											<bezier:BezierPoint x="1137" y="1253" />
+											<bezier:BezierPoint x="1217" y="1103" />
+											<bezier:BezierPoint x="1401" y="1015" />
+											<bezier:BezierPoint x="1589" y="1117" />
+											<bezier:BezierPoint x="1654" y="1229" />
+											<bezier:BezierPoint x="1688" y="1263" />
+											<bezier:BezierPoint x="1736" y="1223" />
+											<bezier:BezierPoint x="1736" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1786" y="1081" />
+											<bezier:BezierPoint x="1786" y="973" />
+											<bezier:BezierPoint x="1694" y="890" />
+											<bezier:BezierPoint x="1588" y="810" />
+											<bezier:BezierPoint x="1588" y="592" />
+											<bezier:BezierPoint x="1644" y="527" />
+											<bezier:BezierPoint x="1789" y="527" />
+											<bezier:BezierPoint x="1849" y="451" />
+											<bezier:BezierPoint x="1799" y="385" />
+											<bezier:BezierPoint x="645" y="385" />
+											<bezier:BezierPoint x="577" y="462" />
+											<bezier:BezierPoint x="645" y="550" />
+											<bezier:BezierPoint x="796" y="550" />
+											<bezier:BezierPoint x="877" y="630" />
+											<bezier:BezierPoint x="877" y="815" />
+											<bezier:BezierPoint x="812" y="885" />
+											<bezier:BezierPoint x="385" y="885" />
+											<bezier:BezierPoint x="351" y="975" />
+											<bezier:BezierPoint x="385" y="1067" />
+											<bezier:BezierPoint x="598" y="1067" />
+											<bezier:BezierPoint x="800" y="1283" />
+											<bezier:BezierPoint x="1157" y="1283" />
+											<bezier:BezierPoint x="1227" y="1133" />
+											<bezier:BezierPoint x="1401" y="1045" />
+											<bezier:BezierPoint x="1579" y="1147" />
+											<bezier:BezierPoint x="1644" y="1259" />
+											<bezier:BezierPoint x="1678" y="1293" />
+											<bezier:BezierPoint x="1786" y="1253" />
+											<bezier:BezierPoint x="1786" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1836" y="1081" />
+											<bezier:BezierPoint x="1836" y="973" />
+											<bezier:BezierPoint x="1754" y="870" />
+											<bezier:BezierPoint x="1658" y="800" />
+											<bezier:BezierPoint x="1678" y="582" />
+											<bezier:BezierPoint x="1779" y="577" />
+											<bezier:BezierPoint x="1889" y="451" />
+											<bezier:BezierPoint x="1819" y="335" />
+											<bezier:BezierPoint x="625" y="335" />
+											<bezier:BezierPoint x="547" y="462" />
+											<bezier:BezierPoint x="575" y="580" />
+											<bezier:BezierPoint x="776" y="590" />
+											<bezier:BezierPoint x="847" y="660" />
+											<bezier:BezierPoint x="837" y="790" />
+											<bezier:BezierPoint x="782" y="845" />
+											<bezier:BezierPoint x="355" y="845" />
+											<bezier:BezierPoint x="301" y="975" />
+											<bezier:BezierPoint x="355" y="1087" />
+											<bezier:BezierPoint x="558" y="1117" />
+											<bezier:BezierPoint x="800" y="1333" />
+											<bezier:BezierPoint x="1177" y="1333" />
+											<bezier:BezierPoint x="1267" y="1163" />
+											<bezier:BezierPoint x="1401" y="1085" />
+											<bezier:BezierPoint x="1539" y="1187" />
+											<bezier:BezierPoint x="1614" y="1289" />
+											<bezier:BezierPoint x="1678" y="1333" />											
+											<bezier:BezierPoint x="1836" y="1263" />
+											<bezier:BezierPoint x="1836" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1876" y="1081" />
+											<bezier:BezierPoint x="1876" y="973" />
+											<bezier:BezierPoint x="1784" y="850" />
+											<bezier:BezierPoint x="1692" y="780" />
+											<bezier:BezierPoint x="1712" y="612" />
+											<bezier:BezierPoint x="1819" y="600" />
+											<bezier:BezierPoint x="1929" y="451" />
+											<bezier:BezierPoint x="1849" y="300" />
+											<bezier:BezierPoint x="595" y="300" />
+											<bezier:BezierPoint x="514" y="462" />
+											<bezier:BezierPoint x="535" y="620" />
+											<bezier:BezierPoint x="760" y="620" />
+											<bezier:BezierPoint x="815" y="690" />
+											<bezier:BezierPoint x="810" y="750" />
+											<bezier:BezierPoint x="742" y="805" />
+											<bezier:BezierPoint x="315" y="805" />
+											<bezier:BezierPoint x="261" y="975" />
+											<bezier:BezierPoint x="325" y="1127" />
+											<bezier:BezierPoint x="518" y="1157" />
+											<bezier:BezierPoint x="760" y="1373" />
+											<bezier:BezierPoint x="1217" y="1373" />
+											<bezier:BezierPoint x="1307" y="1203" />
+											<bezier:BezierPoint x="1401" y="1125" />
+											<bezier:BezierPoint x="1499" y="1227" />
+											<bezier:BezierPoint x="1574" y="1329" />
+											<bezier:BezierPoint x="1678" y="1373" />	
+											<bezier:BezierPoint x="1876" y="1283" />
+											<bezier:BezierPoint x="1876" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+				<data:Race id="dirtRace" name="Dusty Dirt Track" totalLaps="3">
+					<String id="description">Will you conquer the Dunes of this dusty track? Watch out for cacti along the way! Complete three laps to move onto the final track of this course.</String>
+					<data:Track id="track" length="3000" location="The Dunes">
+						<trackThumbs:DustyDirtThumb id="thumbClass" />
+						<Array id="layers">
+							<track:DirtTrackLandscapeItem depth="-1" />
+							<track:DirtTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1796" y="1081" />
+											<bezier:BezierPoint x="1796" y="285" />
+											<bezier:BezierPoint x="355" y="285" />
+											<bezier:BezierPoint x="355" y="620" />
+											<bezier:BezierPoint x="1467" y="620" />
+											<bezier:BezierPoint x="1467" y="1045" />
+											<bezier:BezierPoint x="675" y="1045" />
+											<bezier:BezierPoint x="675" y="1387" />
+											<bezier:BezierPoint x="967" y="1387" />
+											<bezier:BezierPoint x="1117" y="1183" />
+											<bezier:BezierPoint x="1331" y="1155" />
+											<bezier:BezierPoint x="1519" y="1217" />
+											<bezier:BezierPoint x="1672" y="1379" />
+											<bezier:BezierPoint x="1796" y="1379" />
+											<bezier:BezierPoint x="1796" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1836" y="1081" />
+											<bezier:BezierPoint x="1836" y="245" />
+											<bezier:BezierPoint x="315" y="245" />
+											<bezier:BezierPoint x="315" y="660" />
+											<bezier:BezierPoint x="1427" y="660" />
+											<bezier:BezierPoint x="1427" y="1005" />
+											<bezier:BezierPoint x="635" y="1005" />
+											<bezier:BezierPoint x="635" y="1427" />
+											<bezier:BezierPoint x="1007" y="1427" />
+											<bezier:BezierPoint x="1147" y="1223" />
+											<bezier:BezierPoint x="1301" y="1195" />
+											<bezier:BezierPoint x="1489" y="1257" />
+											<bezier:BezierPoint x="1642" y="1419" />											
+											<bezier:BezierPoint x="1836" y="1419" />
+											<bezier:BezierPoint x="1836" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1876" y="1081" />
+											<bezier:BezierPoint x="1876" y="205" />
+											<bezier:BezierPoint x="275" y="205" />
+											<bezier:BezierPoint x="275" y="700" />
+											<bezier:BezierPoint x="1387" y="700" />
+											<bezier:BezierPoint x="1387" y="965" />
+											<bezier:BezierPoint x="595" y="965" />
+											<bezier:BezierPoint x="595" y="1467" />
+											<bezier:BezierPoint x="1037" y="1467" />
+											<bezier:BezierPoint x="1177" y="1263" />
+											<bezier:BezierPoint x="1301" y="1235" />
+											<bezier:BezierPoint x="1459" y="1287" />
+											<bezier:BezierPoint x="1612" y="1459" />																						
+											<bezier:BezierPoint x="1876" y="1459" />
+											<bezier:BezierPoint x="1876" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1916" y="1081" />
+											<bezier:BezierPoint x="1916" y="165" />
+											<bezier:BezierPoint x="235" y="165" />
+											<bezier:BezierPoint x="235" y="740" />
+											<bezier:BezierPoint x="1347" y="740" />
+											<bezier:BezierPoint x="1347" y="925" />
+											<bezier:BezierPoint x="555" y="925" />
+											<bezier:BezierPoint x="555" y="1507" />
+											<bezier:BezierPoint x="1067" y="1507" />
+											<bezier:BezierPoint x="1207" y="1293" />
+											<bezier:BezierPoint x="1301" y="1265" />
+											<bezier:BezierPoint x="1429" y="1317" />											
+											<bezier:BezierPoint x="1582" y="1499" />
+											<bezier:BezierPoint x="1916" y="1499" />
+											<bezier:BezierPoint x="1916" y="1081" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+				<data:Race id="speedwayRace" name="BK Speedway" totalLaps="3">
+					<String id="description">Start Your Engines! This is the most difficult track in the competition. You will need your wits about you for this special speedway. On your marks, get set, GO!!!</String>
+					<data:Track id="track" length="3000" location="Beanie Town">
+						<trackThumbs:GrassySpeedwayThumb id="thumbClass" />
+						<Array id="layers">
+							<track:SpeedwayTrackLandscapeItem depth="-1" />
+							<track:SpeedwayTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2596" y="1159" />
+											<bezier:BezierPoint x="2736" y="1014" />
+											<bezier:BezierPoint x="2736" y="568" />
+											<bezier:BezierPoint x="2598" y="410" />
+											<bezier:BezierPoint x="1505" y="410" />
+											<bezier:BezierPoint x="1475" y="458" />
+											<bezier:BezierPoint x="2117" y="1098" />
+											<bezier:BezierPoint x="1708" y="1510" />
+											<bezier:BezierPoint x="1144" y="1434" />
+											<bezier:BezierPoint x="426" y="2034" />
+											<bezier:BezierPoint x="960" y="2286" />
+											<bezier:BezierPoint x="1429" y="1908" />
+											<bezier:BezierPoint x="1676" y="2124" />
+											<bezier:BezierPoint x="2596" y="1159" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2631" y="1194" />
+											<bezier:BezierPoint x="2771" y="1014" />
+											<bezier:BezierPoint x="2771" y="558" />
+											<bezier:BezierPoint x="2608" y="375" />
+											<bezier:BezierPoint x="1455" y="375" />
+											<bezier:BezierPoint x="1445" y="488" />
+											<bezier:BezierPoint x="2080" y="1098" />
+											<bezier:BezierPoint x="1708" y="1470" />
+											<bezier:BezierPoint x="1134" y="1394" />
+											<bezier:BezierPoint x="356" y="2044" />
+											<bezier:BezierPoint x="960" y="2326" />
+											<bezier:BezierPoint x="1429" y="1948" />
+											<bezier:BezierPoint x="1676" y="2164" />
+											<bezier:BezierPoint x="2631" y="1194" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2661" y="1224" />
+											<bezier:BezierPoint x="2811" y="1014" />
+											<bezier:BezierPoint x="2811" y="548" />
+											<bezier:BezierPoint x="2618" y="335" />
+											<bezier:BezierPoint x="1405" y="335" />
+											<bezier:BezierPoint x="1405" y="508" />
+											<bezier:BezierPoint x="2040" y="1098" />
+											<bezier:BezierPoint x="1708" y="1430" />
+											<bezier:BezierPoint x="1124" y="1354" />
+											<bezier:BezierPoint x="296" y="2044" />
+											<bezier:BezierPoint x="960" y="2366" />
+											<bezier:BezierPoint x="1429" y="1988" />
+											<bezier:BezierPoint x="1676" y="2204" />
+											<bezier:BezierPoint x="2661" y="1224" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2691" y="1254" />
+											<bezier:BezierPoint x="2851" y="1014" />
+											<bezier:BezierPoint x="2851" y="533" />
+											<bezier:BezierPoint x="2638" y="295" />
+											<bezier:BezierPoint x="1365" y="295" />
+											<bezier:BezierPoint x="1365" y="518" />
+											<bezier:BezierPoint x="1990" y="1098" />
+											<bezier:BezierPoint x="1708" y="1390" />
+											<bezier:BezierPoint x="1110" y="1314" />
+											<bezier:BezierPoint x="246" y="2044" />
+											<bezier:BezierPoint x="960" y="2406" />
+											<bezier:BezierPoint x="1429" y="2028" />
+											<bezier:BezierPoint x="1676" y="2244" />
+											<bezier:BezierPoint x="2691" y="1254" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+			</Array>
+		</data:RaceSeries>
+		<data:RaceSeries id="funRun" identifier="funRun" name="Fun-Run Course">
+			<Array id="races">
+				<data:Race id="beachRace" name="Sandy Speedway" totalLaps="2">
+					<String id="description">Race under the bridge at Beanie beach! Will you catch up with your competitors? Zip and Zoom through the beach. Watch out for water along the way!</String>
+					<data:Track id="track" length="3000" location="Beanie Beach">
+						<trackThumbs:SandySpeedwayThumb id="thumbClass" />
+						<Array id="layers">
+							<track:BeachTrackLandscapeItem depth="-1" />
+							<track:BeachTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2044" y="1099" />
+											<bezier:BezierPoint x="2044" y="458" />
+											<bezier:BezierPoint x="1804" y="458" />
+											<bezier:BezierPoint x="1804" y="738" />
+											<bezier:BezierPoint x="1260" y="738" />
+											<bezier:BezierPoint x="1260" y="458" />
+											<bezier:BezierPoint x="930" y="458" />
+											<bezier:BezierPoint x="930" y="778" />
+											<bezier:BezierPoint x="525" y="778" />
+											<bezier:BezierPoint x="525" y="1243" />
+											<bezier:BezierPoint x="625" y="1373" />
+											<bezier:BezierPoint x="835" y="1473" />
+											<bezier:BezierPoint x="1305" y="1038" />
+											<bezier:BezierPoint x="1545" y="933" />
+											<bezier:BezierPoint x="1825" y="1086" />
+											<bezier:BezierPoint x="1795" y="1396" />
+											<bezier:BezierPoint x="1395" y="1896" />
+											<bezier:BezierPoint x="1355" y="2116" />
+											<bezier:BezierPoint x="1555" y="2246" />
+											<bezier:BezierPoint x="1990" y="1850" />
+											<bezier:BezierPoint x="2044" y="1099" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2084" y="1099" />
+											<bezier:BezierPoint x="2084" y="418" />
+											<bezier:BezierPoint x="1764" y="418" />
+											<bezier:BezierPoint x="1764" y="698" />
+											<bezier:BezierPoint x="1300" y="698" />
+											<bezier:BezierPoint x="1300" y="418" />
+											<bezier:BezierPoint x="890" y="418" />
+											<bezier:BezierPoint x="890" y="738" />
+											<bezier:BezierPoint x="485" y="738" />
+											<bezier:BezierPoint x="485" y="1263" />
+											<bezier:BezierPoint x="615" y="1413" />
+											<bezier:BezierPoint x="835" y="1513" />
+											<bezier:BezierPoint x="1325" y="1078" />
+											<bezier:BezierPoint x="1545" y="973" />
+											<bezier:BezierPoint x="1785" y="1096" />
+											<bezier:BezierPoint x="1755" y="1396" />
+											<bezier:BezierPoint x="1345" y="1896" />
+											<bezier:BezierPoint x="1315" y="2126" />
+											<bezier:BezierPoint x="1555" y="2286" />
+											<bezier:BezierPoint x="2030" y="1860" />											
+											<bezier:BezierPoint x="2084" y="1099" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2124" y="1099" />
+											<bezier:BezierPoint x="2124" y="378" />
+											<bezier:BezierPoint x="1724" y="378" />
+											<bezier:BezierPoint x="1724" y="658" />
+											<bezier:BezierPoint x="1340" y="658" />
+											<bezier:BezierPoint x="1340" y="378" />
+											<bezier:BezierPoint x="850" y="378" />
+											<bezier:BezierPoint x="850" y="698" />
+											<bezier:BezierPoint x="445" y="698" />
+											<bezier:BezierPoint x="445" y="1283" />
+											<bezier:BezierPoint x="585" y="1443" />
+											<bezier:BezierPoint x="835" y="1553" />
+											<bezier:BezierPoint x="1345" y="1118" />											
+											<bezier:BezierPoint x="1545" y="1013" />
+											<bezier:BezierPoint x="1745" y="1116" />
+											<bezier:BezierPoint x="1715" y="1396" />
+											<bezier:BezierPoint x="1305" y="1896" />
+											<bezier:BezierPoint x="1275" y="2136" />
+											<bezier:BezierPoint x="1555" y="2326" />
+											<bezier:BezierPoint x="2070" y="1870" />
+											<bezier:BezierPoint x="2124" y="1099" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="2164" y="1099" />
+											<bezier:BezierPoint x="2164" y="338" />
+											<bezier:BezierPoint x="1684" y="338" />
+											<bezier:BezierPoint x="1684" y="618" />
+											<bezier:BezierPoint x="1380" y="618" />
+											<bezier:BezierPoint x="1380" y="338" />
+											<bezier:BezierPoint x="810" y="338" />
+											<bezier:BezierPoint x="810" y="658" />
+											<bezier:BezierPoint x="405" y="658" />
+											<bezier:BezierPoint x="405" y="1303" />
+											<bezier:BezierPoint x="545" y="1463" />
+											<bezier:BezierPoint x="835" y="1593" />
+											<bezier:BezierPoint x="1365" y="1158" />											
+											<bezier:BezierPoint x="1545" y="1053" />
+											<bezier:BezierPoint x="1705" y="1136" />
+											<bezier:BezierPoint x="1675" y="1396" />
+											<bezier:BezierPoint x="1265" y="1896" />
+											<bezier:BezierPoint x="1235" y="2156" />
+											<bezier:BezierPoint x="1555" y="2366" />
+											<bezier:BezierPoint x="2110" y="1890" />
+											<bezier:BezierPoint x="2164" y="1099" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+				<data:Race id="spookyRace" name="The Spooky Track" totalLaps="3">
+					<String id="description">Watch out for creepy cobwebs! You never know what is around the corner on this loopy track. 3 laps until you reach the final track in the course. But beware- the caves are a place of mystery.</String>
+					<data:Track id="track" length="3000" location="The Caves">
+						<trackThumbs:SpookyTrackThumb id="thumbClass" />
+						<Array id="layers">
+							<track:SpookyTrackLandscapeItem depth="-1" />
+							<track:SpookyTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1637" y="1471" />
+											<bezier:BezierPoint x="1637" y="725" />
+											<bezier:BezierPoint x="1487" y="471" />
+											<bezier:BezierPoint x="1317" y="381" />
+											<bezier:BezierPoint x="747" y="381" />
+											<bezier:BezierPoint x="577" y="471" />
+											<bezier:BezierPoint x="377" y="725" />
+											<bezier:BezierPoint x="377" y="1820" />
+											<bezier:BezierPoint x="477" y="1910" />
+											<bezier:BezierPoint x="597" y="1820" />
+											<bezier:BezierPoint x="597" y="1620" />
+											<bezier:BezierPoint x="867" y="1620" />
+											<bezier:BezierPoint x="867" y="1820" />
+											<bezier:BezierPoint x="987" y="1910" />
+											<bezier:BezierPoint x="1107" y="1820" />
+											<bezier:BezierPoint x="1107" y="1620" />
+											<bezier:BezierPoint x="1387" y="1620" />
+											<bezier:BezierPoint x="1387" y="1820" />
+											<bezier:BezierPoint x="1507" y="1910" />
+											<bezier:BezierPoint x="1637" y="1810" />
+											<bezier:BezierPoint x="1637" y="1471" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1677" y="1471" />
+											<bezier:BezierPoint x="1677" y="705" />
+											<bezier:BezierPoint x="1507" y="431" />
+											<bezier:BezierPoint x="1317" y="341" />
+											<bezier:BezierPoint x="747" y="341" />
+											<bezier:BezierPoint x="557" y="431" />
+											<bezier:BezierPoint x="337" y="725" />
+											<bezier:BezierPoint x="337" y="1820" />
+											<bezier:BezierPoint x="477" y="1950" />
+											<bezier:BezierPoint x="637" y="1820" />
+											<bezier:BezierPoint x="637" y="1660" />
+											<bezier:BezierPoint x="827" y="1660" />
+											<bezier:BezierPoint x="827" y="1820" />
+											<bezier:BezierPoint x="987" y="1950" />
+											<bezier:BezierPoint x="1147" y="1820" />
+											<bezier:BezierPoint x="1147" y="1660" />
+											<bezier:BezierPoint x="1347" y="1660" />
+											<bezier:BezierPoint x="1347" y="1820" />
+											<bezier:BezierPoint x="1507" y="1950" />
+											<bezier:BezierPoint x="1677" y="1810" />
+											<bezier:BezierPoint x="1677" y="1471" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1717" y="1471" />
+											<bezier:BezierPoint x="1717" y="685" />
+											<bezier:BezierPoint x="1527" y="391" />
+											<bezier:BezierPoint x="1317" y="301" />
+											<bezier:BezierPoint x="747" y="301" />
+											<bezier:BezierPoint x="537" y="391" />
+											<bezier:BezierPoint x="297" y="725" />
+											<bezier:BezierPoint x="297" y="1820" />
+											<bezier:BezierPoint x="477" y="1990" />
+											<bezier:BezierPoint x="677" y="1820" />
+											<bezier:BezierPoint x="677" y="1700" />
+											<bezier:BezierPoint x="787" y="1700" />
+											<bezier:BezierPoint x="787" y="1820" />
+											<bezier:BezierPoint x="987" y="1990" />
+											<bezier:BezierPoint x="1187" y="1820" />
+											<bezier:BezierPoint x="1187" y="1700" />
+											<bezier:BezierPoint x="1307" y="1700" />
+											<bezier:BezierPoint x="1307" y="1820" />
+											<bezier:BezierPoint x="1507" y="1990" />											
+											<bezier:BezierPoint x="1717" y="1810" />
+											<bezier:BezierPoint x="1717" y="1471" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1757" y="1471" />
+											<bezier:BezierPoint x="1757" y="665" />
+											<bezier:BezierPoint x="1547" y="351" />
+											<bezier:BezierPoint x="1317" y="261" />
+											<bezier:BezierPoint x="747" y="261" />
+											<bezier:BezierPoint x="517" y="351" />
+											<bezier:BezierPoint x="257" y="725" />
+											<bezier:BezierPoint x="257" y="1820" />
+											<bezier:BezierPoint x="477" y="2030" />
+											<bezier:BezierPoint x="732" y="1800" />
+											<bezier:BezierPoint x="987" y="2030" />
+											<bezier:BezierPoint x="1247" y="1800" />
+											<bezier:BezierPoint x="1507" y="2030" />
+											<bezier:BezierPoint x="1757" y="1810" />
+											<bezier:BezierPoint x="1757" y="1471" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+				<data:Race id="flowerRace" name="Flower Raceway" totalLaps="3">
+					<String id="description">Only three laps to the finish line! Race through beautiful Love land. Pass the rainbows in a flash! Will you win the Competition and be the next racing pro on Beanie Island?</String>
+					<data:Track id="track" length="3000" location="Love Land">
+						<trackThumbs:FlowerRacewayTrack id="thumbClass" />
+						<Array id="layers">
+							<track:FlowerTrackLandscapeItem depth="-1" />
+							<track:FlowerTrackOverlayItem depth="1" />
+						</Array>
+						<Array id="lanes">
+							<data:Lane id="lane1">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1686" y="1295" />
+											<bezier:BezierPoint x="1686" y="929" />
+											<bezier:BezierPoint x="1581" y="646" />
+											<bezier:BezierPoint x="1158" y="442" />
+											<bezier:BezierPoint x="728" y="646" />
+											<bezier:BezierPoint x="608" y="929" />
+											<bezier:BezierPoint x="608" y="1332" />
+											<bezier:BezierPoint x="1446" y="1332" />
+											<bezier:BezierPoint x="1446" y="1840" />
+											<bezier:BezierPoint x="623" y="1840" />
+											<bezier:BezierPoint x="622" y="2465" />
+											<bezier:BezierPoint x="733" y="2753" />
+											<bezier:BezierPoint x="1010" y="2954" />
+											<bezier:BezierPoint x="1258" y="2954" />
+											<bezier:BezierPoint x="1566" y="2773" />
+											<bezier:BezierPoint x="1685" y="2465" />
+											<bezier:BezierPoint x="1104" y="2465" />
+											<bezier:BezierPoint x="1104" y="2022" />
+											<bezier:BezierPoint x="1686" y="2022" />
+											<bezier:BezierPoint x="1686" y="1295" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane2">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1716" y="1295" />
+											<bezier:BezierPoint x="1716" y="909" />
+											<bezier:BezierPoint x="1616" y="626" />
+											<bezier:BezierPoint x="1158" y="407" />
+											<bezier:BezierPoint x="693" y="626" />
+											<bezier:BezierPoint x="573" y="929" />
+											<bezier:BezierPoint x="573" y="1368" />
+											<bezier:BezierPoint x="1411" y="1368" />
+											<bezier:BezierPoint x="1411" y="1805" />
+											<bezier:BezierPoint x="588" y="1805" />
+											<bezier:BezierPoint x="588" y="2485" />
+											<bezier:BezierPoint x="713" y="2778" />
+											<bezier:BezierPoint x="1010" y="2989" />
+											<bezier:BezierPoint x="1268" y="2989" />
+											<bezier:BezierPoint x="1591" y="2798" />
+											<bezier:BezierPoint x="1740" y="2430" />
+											<bezier:BezierPoint x="1139" y="2430" />
+											<bezier:BezierPoint x="1139" y="2062" />
+											<bezier:BezierPoint x="1716" y="2062" />
+											<bezier:BezierPoint x="1716" y="1295" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane3">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1751" y="1295" />
+											<bezier:BezierPoint x="1751" y="900" />
+											<bezier:BezierPoint x="1646" y="616" />											
+											<bezier:BezierPoint x="1158" y="372" />
+											<bezier:BezierPoint x="663" y="616" />
+											<bezier:BezierPoint x="538" y="929" />
+											<bezier:BezierPoint x="538" y="1403" />
+											<bezier:BezierPoint x="1376" y="1403" />
+											<bezier:BezierPoint x="1376" y="1770" />
+											<bezier:BezierPoint x="553" y="1770" />
+											<bezier:BezierPoint x="553" y="2495" />
+											<bezier:BezierPoint x="683" y="2808" />
+											<bezier:BezierPoint x="1010" y="3025" />
+											<bezier:BezierPoint x="1268" y="3025" />
+											<bezier:BezierPoint x="1616" y="2823" />
+											<bezier:BezierPoint x="1780" y="2390" />
+											<bezier:BezierPoint x="1174" y="2390" />
+											<bezier:BezierPoint x="1174" y="2097" />
+											<bezier:BezierPoint x="1751" y="2097" />
+											<bezier:BezierPoint x="1751" y="1295" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+							<data:Lane id="lane4">
+								<track:TrackLaneItem id="simItem">
+									<bezier:Path id="path" autoFillTension="1">
+										<Array id="points">
+											<bezier:BezierPoint x="1786" y="1295" />
+											<bezier:BezierPoint x="1786" y="890" />
+											<bezier:BezierPoint x="1676" y="606" />											
+											<bezier:BezierPoint x="1158" y="327" />
+											<bezier:BezierPoint x="628" y="606" />
+											<bezier:BezierPoint x="503" y="929" />
+											<bezier:BezierPoint x="503" y="1438" />
+											<bezier:BezierPoint x="1341" y="1438" />
+											<bezier:BezierPoint x="1341" y="1735" />
+											<bezier:BezierPoint x="518" y="1735" />
+											<bezier:BezierPoint x="523" y="2515" />
+											<bezier:BezierPoint x="653" y="2838" />
+											<bezier:BezierPoint x="1010" y="3060" />
+											<bezier:BezierPoint x="1278" y="3060" />
+											<bezier:BezierPoint x="1646" y="2853" />
+											<bezier:BezierPoint x="1830" y="2355" />
+											<bezier:BezierPoint x="1209" y="2355" />
+											<bezier:BezierPoint x="1209" y="2142" />
+											<bezier:BezierPoint x="1786" y="2142" />
+											<bezier:BezierPoint x="1786" y="1295" />
+										</Array>
+									</bezier:Path>
+								</track:TrackLaneItem>
+							</data:Lane>
+						</Array>
+					</data:Track>
+				</data:Race>
+			</Array>
+		</data:RaceSeries>
+	</Array>
+	<Array id="drivers">
+		<data:Driver identifier="racer" name="Spark the Car Racing Bear">
+			<String id="description">Spark is one of the top racers on Beanie Island. He has been training with his good friends Vroom and Speedy who have taught him some of their racing tricks.</String>
+			<vehicles:RacerVehicle id="vehicle" />
+		</data:Driver>
+		<data:Driver identifier="spider" name="Spidey the Bear">
+			<String id="description">"Look out here comes Spidey". Not only is she great at spinning webs but she is also a great race car driver. Spidey's car is one of the fastest around and she can't wait to get on the racetrack and show how fast she is! </String>
+			<vehicles:SpiderVehicle id="vehicle" />
+		</data:Driver>
+		<data:Driver identifier="witch" name="Esmeralda the White Witch Bear">
+			<String id="description">Esmeralda used a magic spell to bring her racing car to life. It even has 2 of her magic broomsticks built in for extra speed! She is determined to show that she is the fastest witch on Beanie Island.</String>
+			<vehicles:WitchVehicle id="vehicle" />
+		</data:Driver>
+		<data:Driver identifier="poodle" name="Lindy-Loo the Poodle Bear">
+			<String id="description">Lindy-Loo and her pretty pink car are a match made in heaven. She loves to hang her head out the window when she is driving really fast and catch the cool breeze in her face.</String>
+			<vehicles:PoodleVehicle id="vehicle" />
+		</data:Driver>
+	</Array>
+	<utils:Dictionary id="difficultySettings">
+		<data:DifficultySetting id="fiveToSix" numAnswers="2">
+			<question:SimpleQuestionProvider id="questionProvider">
+				<Array id="pool">
+					<question:Question>
+						<numExpression:AddExpression id="expression">
+							<numExpression:RandomValueExpression id="leftExpression" minValue="0" maxValue="7" forceInt="true" />
+							<numExpression:RandomValueExpression id="rightExpression" minValue="0" maxValue="7" forceInt="true" />
+						</numExpression:AddExpression>
+					</question:Question>
+				</Array>
+			</question:SimpleQuestionProvider>
+		</data:DifficultySetting>
+		<data:DifficultySetting id="sevenToNine" numAnswers="3">
+			<question:SimpleQuestionProvider id="questionProvider">
+				<Array id="pool">
+					<question:Question>
+						<numExpression:RandomBinaryExpressionProxy id="expression">
+							<Array id="expressionPool">
+								<numExpression:AddExpression>
+									<numExpression:RandomValueExpression id="leftExpression" minValue="2" maxValue="20" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="2" maxValue="20" forceInt="true" />
+								</numExpression:AddExpression>
+								<numExpression:SubtractExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="8" maxValue="15" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="1" maxValue="8" forceInt="true" />
+								</numExpression:SubtractExpression>
+							</Array>
+						</numExpression:RandomBinaryExpressionProxy>
+					</question:Question>
+				</Array>
+			</question:SimpleQuestionProvider>
+		</data:DifficultySetting>
+		<data:DifficultySetting id="tenToTwelve" numAnswers="4">
+			<question:SimpleQuestionProvider id="questionProvider">
+				<Array id="pool">
+					<question:Question>
+						<numExpression:RandomBinaryExpressionProxy id="expression">
+							<Array id="expressionPool">
+								<numExpression:AddExpression>
+									<numExpression:RandomValueExpression id="leftExpression" minValue="3" maxValue="30" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="30" forceInt="true" />
+								</numExpression:AddExpression>
+								<numExpression:SubtractExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="10" maxValue="20" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="10" forceInt="true" />
+								</numExpression:SubtractExpression>
+							</Array>
+						</numExpression:RandomBinaryExpressionProxy>
+					</question:Question>
+				</Array>
+			</question:SimpleQuestionProvider>
+		</data:DifficultySetting>
+		<data:DifficultySetting id="thirteenToFourteen" numAnswers="5">
+			<question:SimpleQuestionProvider id="questionProvider">
+				<Array id="pool">
+					<question:Question>
+						<numExpression:RandomBinaryExpressionProxy id="expression">
+							<Array id="expressionPool">
+								<numExpression:AddExpression>
+									<numExpression:RandomValueExpression id="leftExpression" minValue="3" maxValue="50" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="50" forceInt="true" />
+								</numExpression:AddExpression>
+								<numExpression:SubtractExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="20" maxValue="40" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="20" forceInt="true" />
+								</numExpression:SubtractExpression>
+								<numExpression:MultiplyExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="1" maxValue="6" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="1" maxValue="6" forceInt="true" />
+								</numExpression:MultiplyExpression>
+							</Array>
+						</numExpression:RandomBinaryExpressionProxy>
+					</question:Question>
+				</Array>
+			</question:SimpleQuestionProvider>
+		</data:DifficultySetting>
+		<data:DifficultySetting id="fifteenAndOver" numAnswers="6">
+			<question:SimpleQuestionProvider id="questionProvider">
+				<Array id="pool">
+					<question:Question>
+						<numExpression:RandomBinaryExpressionProxy id="expression">
+							<Array id="expressionPool">
+								<numExpression:AddExpression>
+									<numExpression:RandomValueExpression id="leftExpression" minValue="3" maxValue="100" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="100" forceInt="true" />
+								</numExpression:AddExpression>
+								<numExpression:SubtractExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="10" maxValue="80" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="50" forceInt="true" />
+								</numExpression:SubtractExpression>
+								<numExpression:MultiplyExpression id="expression">
+									<numExpression:RandomValueExpression id="leftExpression" minValue="2" maxValue="12" forceInt="true" />
+									<numExpression:RandomValueExpression id="rightExpression" minValue="2" maxValue="12" forceInt="true" />
+								</numExpression:MultiplyExpression>
+								<numExpression:AddExpression>
+									<numExpression:MultiplyExpression id="leftExpression">
+										<numExpression:RandomValueExpression id="leftExpression" minValue="2" maxValue="8" forceInt="true" />
+										<numExpression:RandomValueExpression id="rightExpression" minValue="2" maxValue="8" forceInt="true" />
+									</numExpression:MultiplyExpression>
+									<numExpression:RandomValueExpression id="rightExpression" minValue="3" maxValue="100" forceInt="true" />
+								</numExpression:AddExpression>
+							</Array>
+						</numExpression:RandomBinaryExpressionProxy>
+					</question:Question>
+				</Array>
+			</question:SimpleQuestionProvider>
+		</data:DifficultySetting>
+	</utils:Dictionary>
+</data:AppData>
