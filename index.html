@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Daniel Holmes - Software Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Khula" rel="stylesheet">
+    <style type="text/css">
+        /* http://meyerweb.com/eric/tools/css/reset/
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /* Reset done */
+        body {
+            background: #464646;
+            font-family: 'Khula', Helvetica, Arial, sans-serif;
+            color: #eeeeff;
+            margin: 15px;
+            font-weight: 100;
+            font-size: 1.2em;
+            letter-spacing: 0em;
+        }
+        #container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+            border-bottom: 1px solid #B1CCB5;
+            padding-bottom: 10px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 0.7em;
+            margin-top: 1em;
+            padding-bottom: 1.3em;
+            border-bottom: 1px solid #B1CCB5;
+        }
+        h1 {
+            font-size: 2.2em;
+            font-family: 'Fugaz One', Helvetica, Arial, sans-serif;
+            font-weight: bold;
+        }
+        a {
+            color: #B1CCB5;
+        }
+        p {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+        p, ul {
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+        li {
+            margin-left: 20px;
+            list-style: circle;
+        }
+        #container > section {
+            width: 50%;
+            float:left;
+        }
+        .clear-fix {
+            clear: both;
+            font-size: 0;
+            height: 0;
+        }
+        @media(max-width: 600px) {
+            #container > section {
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <header>
+            <h1>Daniel Holmes</h1>
+        </header>
+        <section>
+            <p>
+                I'm a passionate freelance Software developer currently residing in Sydney Australia.
+            </p>
+            <p>
+                Most of my commercial software experience is with web applications, mobile applications and games.
+            </p>
+        </section>
+        <section>
+            <p>
+                You can get in touch with me
+                <ul>
+                    <li>Via email <a id="contact-link"></a></li>
+                    <li><a href="http://github.com/danielholmes">At Github</a></li>
+                    <li><a href="http://au.linkedin.com/in/danielholmesau">At Linked In</a></li>
+                </ul>
+            </p>
+        </section>
+        <br class="clear-fix" />
+    </section>
+    <section>
+        <h3>Misc</h3>
+        <a href="./flash">Some old flash demos (circa 2004)</a>
+    </section>
+    <script type="text/javascript">
+        function listen(evnt, elem, func) {
+            if (elem.addEventListener)  // W3C DOM
+                elem.addEventListener(evnt,func,false);
+            else if (elem.attachEvent) { // IE DOM
+                var r = elem.attachEvent("on"+evnt, func);
+                return r;
+            }
+        }
+        listen("load", window, function() {
+            var e = 'cont' + 'ac';
+            e += 't@';
+            e += 'daniel';
+            e += 'holmes.o' + 'rg';
+            var link = document.getElementById('contact-link');
+            link.href = 'mai' + 'lto' + ':' + e;
+            link.appendChild(document.createTextNode(e));
+        });
+    </script>
+</body>
+</html>
